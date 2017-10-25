@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kex.cs453hw2.MainActivity">
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude (-90 to 90)" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude (-180 to 180)" />
+
+    <EditText
+        android:id="@+id/radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Radius (1 to 50000)" />
+
+    <Button
+        android:id="@+id/targetPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Info of the place" />
+
+    <Button
+        android:id="@+id/currentPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Info of Your Place" />
+
+
+</LinearLayout>
